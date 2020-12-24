@@ -6874,7 +6874,7 @@ body {
   opacity: 0.2; }
 
 #mainPicture {
-  background: url("/images/fachry-zella-devandra-9PhjFydFY5Q-unsplash.jpg") fixed center no-repeat;
+  background: url("./images/fachry-zella-devandra-9PhjFydFY5Q-unsplash.jpg") fixed center no-repeat;
   min-height: 720px;
   background-size: cover;
   position: relative;
@@ -6889,7 +6889,7 @@ body {
     z-index: -1; }
 
 #mainFoodPicture {
-  background: url("/images/social_media_gallery/jesse-ballantyne-9r5kHbw51fk-unsplash.jpg") fixed center no-repeat;
+  background: url("./images/social_media_gallery/jesse-ballantyne-9r5kHbw51fk-unsplash.jpg") fixed center no-repeat;
   min-height: 750px;
   background-size: cover;
   position: relative; }
