@@ -6807,9 +6807,9 @@ body {
   margin: 2px 0px 2px 0px; }
 
 .dropdown-item:hover {
-  background: black;
-  padding-top: 50px;
-  transform: translate(30px); }
+  background: none;
+  /* transform: translate(10px); } */
+}
 
 #navbarToggler .bar1, #navbarToggler .bar2, #navbarToggler .bar3 {
   width: 35px;
