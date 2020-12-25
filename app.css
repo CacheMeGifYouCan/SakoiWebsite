@@ -6892,6 +6892,7 @@ body {
 #mainFoodPicture {
   background: url("./images/social_media_gallery/jesse-ballantyne-9r5kHbw51fk-unsplash.jpg") fixed center no-repeat;
   min-height: 750px;
+  background-attachment: scroll;
   background-size: cover;
   position: relative; }
   #mainFoodPicture #header {
