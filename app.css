@@ -6876,6 +6876,7 @@ body {
 #mainPicture {
   background: url("./images/fachry-zella-devandra-9PhjFydFY5Q-unsplash.jpg") fixed center no-repeat;
   min-height: 720px;
+  background-attachment: scroll;
   background-size: cover;
   position: relative;
   z-index: -2; }
