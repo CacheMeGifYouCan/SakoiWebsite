@@ -8,6 +8,10 @@
     <link rel="icon" href="./images/logo-ca-Koi-23.png">
     <link href="https://fonts.googleapis.com/css?family=Raleway:100,300,500,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link href="https://fonts.googleapis.com/css2?family=Cutive&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./app.css">
     <title>Sakoi Restaurant</title>
 </head>
@@ -61,22 +65,20 @@
     </section>
 
     <!-- Main Picture Section -->
-    <section onclick="closeNav()" id="mainPicture" class="d-flex justify-content-center align-items-center">
+    <section onclick="closeNav()" id="mainPicture" class="d-flex justify-content-center align-items-end">
         <div id="overlay"></div>
-        <div id="headerMain" class="container text-white text-center">
-            <h1 class="display-1 font-weight-light">SAKOI</h1>
-            <h1 class="display-5 font-weight-light">LONDON</h1>
+        <div class="container text-white text-center">
+            <h1 id="headerMain" >SAKOI</h1>
+            <h1 id="headerMain2">LONDON</h1>
         </div>
     </section>
 
-    <!-- Site Description Header -->
-    <section onclick="closeNav()">
-    <div class="container text-center text-primary mt-4">
+    <!-- Restaurant Description -->
+    <section id="descriptionText" onclick="closeNav()" class="mt-4 ">
+    <div class="container text-center text-primary">
         <div class="row">
-            <div class="container justify-content-center mt-5">
-                <div class="col-12">
-                    <img id="img" class="img-fluid d-md-block" src="./images/samuel-foster-LxD9fZYR2uw-unsplash.jpg" alt="restaurant_image">
-                </div>
+            <div class="container mt-1">
+                <img id="img" class="img-fluid d-md-block" src="./images/samuel-foster-LxD9fZYR2uw-unsplash.jpg" alt="restaurant_image">
                 <div id="booknow" class="btn btn-primary mt-4 mb-5 col-9 text-center btn-large p-3" data-toggle="modal" data-target="#bookingform" role="bookbutton">BOOK A TABLE NOW</div>
             </div>
                 <div id="sakoiDescription" class="col-12 p-3">
@@ -115,8 +117,8 @@
     <!-- Our Food Section -->
     <section onclick="closeNav()" id="mainFoodPicture" class="d-flex justify-content-center align-items-center">
         <div id="overlay2"></div>
-        <div id="header" class="container text-white text-center">
-            <h1 class="display-4">Our Specials</h1>
+        <div class="container text-white text-center">
+            <div id="foodHeader">Specials</div>
         </div>
     </section>
 
@@ -185,13 +187,12 @@
 </section>
 
     <!-- About Us -->
-    <section onclick="closeNav()">
+    <section id="descriptionText" class="mt-4" onclick="closeNav()">
         <div id="aboutText" class="container aboutText text-center mt-5">
             <h4 id="titles" class="display-5 text-primary font-weight-bold">About Us <div id="titlesBar"></div></h4>
             <p id="text" class="lead text-white mt-3 text-left col-md-12 mb-3 px-5">
             <i id="quoteIcon" class="fas fa-quote-left text-secondary"></i>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex labore, tempora tempore magni nihil vitae quod quis ullam cumque consectetur. Veritatis dignissimos soluta laudantium aspernatur velit adipisci, aliquid at natus, vitae iste, id obcaecati ipsam pariatur ratione.
-            Officia itaque officiis cupiditate 
             </p>
             <span class="text-white-50 blockquote-footer text-uppercase">General Manager</span>
         </div>
@@ -268,6 +269,7 @@
        <!-- Modal -->
 
        <section onclick="closeNav()" class="modal fade" id="bookingform" tabindex="-1" role="dialog" aria-labelledby="bookingform" aria-hidden="true">
+        <div class="container">
         <div class="modal-dialog" role="document">
           <div class="modal-content">
             <div class="modal-header">
@@ -303,6 +305,7 @@
             </div>
           </div>
         </div>
+    </div>
     </section>
 
     

@@ -6781,28 +6781,35 @@ a.text-dark:hover, a.text-dark:focus {
     color: inherit;
     border-color: #dee2e6; } }
 body {
-  font-family: "Raleway", sans-serif;
-  background: #121214; }
+  font-family: roboto, sans-serif;
+  background: #121214;
+  overscroll-behavior-x: none; }
 
 @font-face {
-    font-family: osaka;
-    src: url(./osaka-re.ttf);
+    font-family: japan;
+    src: url(./Karla/Karla-VariableFont_wght.ttf);
   }
 @font-face {
     font-family: moyko;
-    src: url(./Moyko.ttf);
+    src: url(./Audiowide/Audiowide-Regular.ttf);
   }
 
 #header, #titles {
-    font-family: moyko, sans-serif;
+    font-family: roboto, sans-serif;
     font-size: 50px;
   }
 #headerMain {
-    font-family: moyko, sans-serif;
-    height: 0rem;
+    font-family: japan, sans-serif;
+    font-size: 200px;
+  }
+#headerMain2 {
+    font-family: japan, sans-serif;
+    font-size: 50px;
   }
 
+
 #titles {
+  font-size: 50px;
   padding-bottom: 20px; }
 
 #titlesBar {
@@ -6863,8 +6870,9 @@ body {
     transition: 1s; }
   .navbar #logo:hover {
     transform: scale(1.2); }
-  .navbar #brand {
-    color: #FEF8EE; }
+  .navbar-brand {
+    color: #FEF8EE;
+  font-family: japan; }
   .navbar #navLinks a {
     width: 100%;
     padding: 10px;
@@ -6903,32 +6911,33 @@ body {
     position: absolute;
     top: 0;
     left: 0%;
-    min-height: 750px;
+    min-height: 760px;
     width: 100%;
     background: rgba(0, 0, 0, 0.3);
     z-index: -1; }
+    #foodHeader {
+      z-index: 3;
+      font-weight: bolder;
+      font-family: japan, sans-serif;
+      font-size: 100px; }
   
 
 
 #mainFoodPicture {
   background: url("./images/social_media_gallery/jesse-ballantyne-9r5kHbw51fk-unsplash.jpg") fixed center no-repeat;
-  min-height: 720px;
+  min-height: 760px;
   background-attachment: scroll;
   background-size: cover;
   position: relative;
   z-index: -2;  }
-  #mainFoodPicture #header {
-    z-index: 3;
-    font-weight: bolder;
-    font-family: osaka, sans-serif; }
   #mainFoodPicture #overlay2 {
     position: absolute;
     top: 0;
     left: 0%;
-    min-height: 750px;
+    min-height: 760px;
     width: 100%;
     background: rgba(0, 0, 0, 0.5);
-    z-index: 1; }
+    z-index: -1; }
 
 #img {
   transition: 600ms; }
@@ -6976,38 +6985,171 @@ font-size: 21px; }
     opacity: 0.8; }
   100% {
     opacity: 1; } }
+
+@media(max-width: 1920px) {
+      #mainPicture {
+        min-height: 650px; }
+        #mainPicture #overlay {
+          min-height: 650px; }
+        #headerMain {
+          font-family: japan, sans-serif;
+          font-size: 140px;
+        }
+        #headerMain2 {
+          font-family: japan, sans-serif;
+          font-size: 30px;
+        }
+          #mainFoodPicture {
+            min-height: 900px;  }
+            #mainFoodPicture #overlay2 {
+              min-height: 900px; }
+                  #foodHeader {
+                    z-index: 3;
+                    font-weight: bolder;
+                    font-family: japan, sans-serif;
+                    font-size: 100px; }
+  }
+
+
+@media(max-width: 1366px) {
+  #mainPicture {
+    min-height: 680px; }
+    #headerMain {
+      font-family: japan, sans-serif;
+      font-size: 150px;
+    }
+    #headerMain2 {
+      font-family: japan, sans-serif;
+      font-size: 40px;
+    }
+    #mainPicture #overlay {
+      min-height: 680px; }
+      #mainFoodPicture {
+        min-height: 1000px;  }
+        #mainFoodPicture #overlay2 {
+          min-height: 1000px; }
+              #foodHeader {
+                z-index: 3;
+                font-weight: bolder;
+                font-family: japan, sans-serif;
+                font-size: 90px; }
+}
+
+@media(max-width: 1000px) {
+  #mainPicture {
+    min-height: 660px; }
+    #headerMain {
+      font-family: japan, sans-serif;
+      font-size: 120px;
+    }
+    #headerMain2 {
+      font-family: japan, sans-serif;
+      font-size: 40px;
+    }
+    #mainPicture #overlay {
+      min-height: 660px; }
+      #mainFoodPicture {
+        min-height: 800px;  }
+        #mainFoodPicture #overlay2 {
+          min-height: 800px; }
+              #foodHeader {
+                z-index: 3;
+                font-weight: bolder;
+                font-family: japan, sans-serif;
+                font-size: 90px; }
+}
+
+
 @media (max-width: 768px) {
+  #mainPicture {
+    min-height:630px;}
+    #mainPicture #overlay {
+      min-height: 630px; }
+    #headerMain {
+      font-family: japan, sans-serif;
+      font-size: 90px;
+    }
+    #headerMain2 {
+      font-family: japan, sans-serif;
+      font-size: 25px;
+    }
+  #descriptionText {
+    border-right: 1px solid #555;
+    border-left: 1px solid #555;
+    margin: 0rem 2rem 0rem 2rem;
+  }
   #sakoiDescription {
     border: none;
     padding: 1rem; } 
     #mainFoodPicture {
-      min-height: 370px;
+      min-height: 630px;  }
+      #mainFoodPicture #overlay2 {
+        min-height: 630px; }
+            #foodHeader {
+              z-index: 3;
+              font-weight: bolder;
+              font-family: japan, sans-serif;
+              font-size: 70px; }
+  }
+
+  @media (max-width: 800px) {
+    #mainPicture {
+      background: url("./images/fachry-zella-devandra-9PhjFydFY5Q-unsplash.jpg") fixed center no-repeat;
+      min-height: 490px;
       background-attachment: scroll;
       background-size: cover;
       position: relative;
-      z-index: -2;  }
-      #mainPicture {
-        min-height:345px;
-        background-attachment: scroll;
-        background-size: cover;
-        position: relative;
-        z-index: -2; }
+      z-index: -2; }
+      #mainPicture #overlay {
+        min-height: 490px; }
         #headerMain {
-          font-family: moyko, sans-serif;
-          font-size: 50px;
-          height: 3rem;
+          font-family: japan, sans-serif;
+          font-size: 85px;
         }
-  }
+        #headerMain2 {
+          font-family: japan, sans-serif;
+          font-size: 25px;
+        }
+        #mainFoodPicture {
+          min-height: 550px;  }
+          #mainFoodPicture #overlay2 {
+            min-height: 550px; }
+                #foodHeader {
+                  z-index: 3;
+                  font-weight: bolder;
+                  font-family: japan, sans-serif;
+                  font-size: 80px; }
+}
 
-  /* Desktop 760px */
-  @media(min-width: 760px){
-  #mainPicture {
-    background: url("./images/fachry-zella-devandra-9PhjFydFY5Q-unsplash.jpg") fixed center no-repeat;
-    min-height: 760px;
-    background-attachment: scroll;
-    background-size: cover;
-    position: relative;
-    z-index: -2; }
-  }
+  @media (max-width: 520px) {
+    #mainPicture {
+      background: url("./images/fachry-zella-devandra-9PhjFydFY5Q-unsplash.jpg") fixed center no-repeat;
+      min-height: 530px;
+      background-attachment: scroll;
+      background-size: cover;
+      position: relative;
+      z-index: -2; }
+      #mainPicture #overlay {
+        min-height: 530px; }
+        #headerMain {
+          font-family: japan, sans-serif;
+          font-size: 90px;
+        }
+        #headerMain2 {
+          font-family: japan, sans-serif;
+          font-size: 25px;
+        }
+        #mainFoodPicture {
+          min-height: 370px;  }
+          #mainFoodPicture #overlay2 {
+            min-height: 370px; }
+                #foodHeader {
+                  z-index: 3;
+                  font-weight: bolder;
+                  font-family: japan, sans-serif;
+                  font-size: 80px; }
+}
+
+
 
 /*# sourceMappingURL=app.css.map */
