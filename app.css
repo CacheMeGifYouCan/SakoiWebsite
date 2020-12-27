@@ -7108,7 +7108,7 @@ font-size: 21px; }
   @media (max-width: 520px) {
     #mainPicture {
       background: url("./images/fachry-zella-devandra-9PhjFydFY5Q-unsplash.jpg") fixed center no-repeat;
-      min-height: 690px;
+      min-height: 590px;
       background-attachment: scroll;
       background-size: cover;
       position: relative;
@@ -7118,7 +7118,7 @@ font-size: 21px; }
         font-size: 30px;
       }
       #mainPicture #overlay {
-        min-height: 530px; }
+        min-height: 590px; }
         #headerMain {
           font-size: 90px;
           font-family: japan, sans-serif;
