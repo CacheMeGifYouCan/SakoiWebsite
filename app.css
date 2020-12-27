@@ -6799,7 +6799,7 @@ body {
     font-size: 50px;
   }
 #headerMain {
-    font-family: japan, sans-serif;
+    font-family: moyko, sans-serif;
     font-size: 200px;
   }
 #headerMain2 {
@@ -6898,7 +6898,7 @@ body {
 
 .navbar-hide {
   pointer-events: none;
-  opacity: 0.1; }
+  opacity: 0; }
 
 #mainPicture {
   background: url("./images/fachry-zella-devandra-9PhjFydFY5Q-unsplash.jpg") fixed center no-repeat;
@@ -6992,11 +6992,9 @@ font-size: 21px; }
         #mainPicture #overlay {
           min-height: 650px; }
         #headerMain {
-          font-family: japan, sans-serif;
           font-size: 140px;
         }
         #headerMain2 {
-          font-family: japan, sans-serif;
           font-size: 30px;
         }
           #mainFoodPicture {
@@ -7006,7 +7004,7 @@ font-size: 21px; }
                   #foodHeader {
                     z-index: 3;
                     font-weight: bolder;
-                    font-family: japan, sans-serif;
+        
                     font-size: 100px; }
   }
 
@@ -7014,12 +7012,10 @@ font-size: 21px; }
 @media(max-width: 1366px) {
   #mainPicture {
     min-height: 680px; }
-    #headerMain {
-      font-family: japan, sans-serif;
+    #headerMain{
       font-size: 150px;
     }
-    #headerMain2 {
-      font-family: japan, sans-serif;
+    #headerMain2{
       font-size: 40px;
     }
     #mainPicture #overlay {
@@ -7031,19 +7027,16 @@ font-size: 21px; }
               #foodHeader {
                 z-index: 3;
                 font-weight: bolder;
-                font-family: japan, sans-serif;
                 font-size: 90px; }
 }
 
 @media(max-width: 1000px) {
   #mainPicture {
     min-height: 660px; }
-    #headerMain {
-      font-family: japan, sans-serif;
+    #headerMain{
       font-size: 120px;
     }
-    #headerMain2 {
-      font-family: japan, sans-serif;
+    #headerMain2{
       font-size: 40px;
     }
     #mainPicture #overlay {
@@ -7055,7 +7048,7 @@ font-size: 21px; }
               #foodHeader {
                 z-index: 3;
                 font-weight: bolder;
-                font-family: japan, sans-serif;
+    
                 font-size: 90px; }
 }
 
@@ -7065,12 +7058,10 @@ font-size: 21px; }
     min-height:630px;}
     #mainPicture #overlay {
       min-height: 630px; }
-    #headerMain {
-      font-family: japan, sans-serif;
+    #headerMain{
       font-size: 90px;
     }
-    #headerMain2 {
-      font-family: japan, sans-serif;
+    #headerMain2{
       font-size: 25px;
     }
   #descriptionText {
@@ -7088,7 +7079,7 @@ font-size: 21px; }
             #foodHeader {
               z-index: 3;
               font-weight: bolder;
-              font-family: japan, sans-serif;
+  
               font-size: 70px; }
   }
 
@@ -7103,11 +7094,9 @@ font-size: 21px; }
       #mainPicture #overlay {
         min-height: 490px; }
         #headerMain {
-          font-family: japan, sans-serif;
           font-size: 85px;
         }
         #headerMain2 {
-          font-family: japan, sans-serif;
           font-size: 25px;
         }
         #mainFoodPicture {
@@ -7117,7 +7106,7 @@ font-size: 21px; }
                 #foodHeader {
                   z-index: 3;
                   font-weight: bolder;
-                  font-family: japan, sans-serif;
+      
                   font-size: 80px; }
 }
 
@@ -7129,14 +7118,17 @@ font-size: 21px; }
       background-size: cover;
       position: relative;
       z-index: -2; }
+      #header, #titles {
+        font-family: roboto, sans-serif;
+        font-size: 30px;
+      }
       #mainPicture #overlay {
         min-height: 530px; }
         #headerMain {
-          font-family: japan, sans-serif;
           font-size: 90px;
+          font-family: japan, sans-serif;
         }
         #headerMain2 {
-          font-family: japan, sans-serif;
           font-size: 25px;
         }
         #mainFoodPicture {
@@ -7146,7 +7138,7 @@ font-size: 21px; }
                 #foodHeader {
                   z-index: 3;
                   font-weight: bolder;
-                  font-family: japan, sans-serif;
+      
                   font-size: 80px; }
 }
 
