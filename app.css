@@ -7113,7 +7113,7 @@ font-size: 21px; }
   @media (max-width: 520px) {
     #mainPicture {
       background: url("./images/fachry-zella-devandra-9PhjFydFY5Q-unsplash.jpg") fixed center no-repeat;
-      min-height: 730px;
+      min-height: 700px;
       background-attachment: scroll;
       background-size: cover;
       position: relative;
