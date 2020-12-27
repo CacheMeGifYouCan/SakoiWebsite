@@ -6993,6 +6993,7 @@ font-size: 21px; }
           min-height: 650px; }
         #headerMain {
           font-size: 140px;
+          font-family: moyko,sans-serif;
         }
         #headerMain2 {
           font-size: 30px;
@@ -7014,6 +7015,7 @@ font-size: 21px; }
     min-height: 680px; }
     #headerMain{
       font-size: 150px;
+      font-family: moyko,sans-serif;
     }
     #headerMain2{
       font-size: 40px;
@@ -7035,6 +7037,7 @@ font-size: 21px; }
     min-height: 660px; }
     #headerMain{
       font-size: 120px;
+      font-family: moyko,sans-serif;
     }
     #headerMain2{
       font-size: 40px;
@@ -7060,9 +7063,11 @@ font-size: 21px; }
       min-height: 630px; }
     #headerMain{
       font-size: 90px;
+      font-family: moyko,sans-serif;
     }
     #headerMain2{
       font-size: 25px;
+      
     }
   #sakoiDescription {
     border: none;
@@ -7090,9 +7095,14 @@ font-size: 21px; }
         min-height: 490px; }
         #headerMain {
           font-size: 85px;
+          font-family: moyko,sans-serif;
         }
         #headerMain2 {
           font-size: 25px;
+        }
+        #header, #titles {
+          font-family: roboto, sans-serif;
+          font-size: 50px;
         }
         #mainFoodPicture {
           min-height: 550px;  }
@@ -7120,8 +7130,8 @@ font-size: 21px; }
       #mainPicture #overlay {
         min-height: 590px; }
         #headerMain {
-          font-size: 90px;
-          font-family: japan, sans-serif;
+          font-size: 60px;
+          font-family: moyko, sans-serif;
         }
         #headerMain2 {
           font-size: 25px;
