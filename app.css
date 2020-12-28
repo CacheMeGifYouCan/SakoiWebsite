@@ -6972,6 +6972,18 @@ font-size: 21px; }
   font-size: 30px;
   font-weight: bolder; }
 
+.modal-dialog,
+.modal-content {
+  height: 100%;
+  min-width: 200px;
+}
+
+.modal-body {
+  max-height: 50%;
+  min-width: 200px;
+  overflow-y: scroll;
+}
+
 @keyframes cardAnimation {
   0% {
     opacity: 0.1; }
