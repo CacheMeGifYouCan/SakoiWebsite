@@ -6988,9 +6988,9 @@ font-size: 21px; }
 
 @media(max-width: 1920px) {
       #mainPicture {
-        min-height: 650px; }
+        min-height: 800px; }
         #mainPicture #overlay {
-          min-height: 650px; }
+          min-height: 800px; }
         #headerMain {
           font-size: 140px;
           font-family: moyko,sans-serif;
