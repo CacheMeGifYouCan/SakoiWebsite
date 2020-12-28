@@ -6974,7 +6974,6 @@ font-size: 21px; }
 
 
 
-
 @keyframes cardAnimation {
   0% {
     opacity: 0.1; }
@@ -7135,6 +7134,9 @@ font-size: 21px; }
                 font-weight: bolder;
                 font-family: roboto, sans-serif;
                 font-size: 80px; }
+                .modal {
+                  height: 31rem;
+              }
 }
 
 
@@ -7193,6 +7195,9 @@ font-size: 21px; }
                 #topBtn:hover {
                     background-color: #b66f2e; 
                   }
+                  .modal {
+                    height: 31rem;
+                }
 }
 
 
