@@ -7126,9 +7126,11 @@ font-size: 21px; }
         font-size: 50px;
       }
       #mainFoodPicture {
-        min-height: 550px;  }
+        min-height: 550px;
+        background-attachment: scroll;  }
         #mainFoodPicture #overlay2 {
-          min-height: 550px; }
+          min-height: 550px;
+          background-attachment: scroll; }
               #foodHeader {
                 z-index: 3;
                 font-weight: bolder;
