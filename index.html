@@ -387,12 +387,10 @@ $(window).scroll(function(b) {
 var scrollCard = $(window).scrollTop();
 var width = (window.innerWidth > 0) ? window.innerWidth : screen.Width;
 
-if (scrollCard >= 1900 & width <= 900) {
+if (scrollCard >= 2350 & width <= 900) {
     $('.card1').addClass("card-hide1");
-    console.log("<2700");
 } else {
     $('.card1').removeClass("card-hide1");
-    console.log(">=2700");
 }
 });
 
