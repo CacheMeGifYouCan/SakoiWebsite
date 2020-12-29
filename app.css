@@ -6952,7 +6952,7 @@ body {
 .card-hide1 {
   pointer-events: none;
   animation-name: cardAnimation;
-  animation-duration: 2.7s;
+  animation-duration: 2.5s;
   animation-timing-function: cubic-bezier(0.1, 0.3, 0.9, 0.9);
   animation-iteration-count: 1; }
 
