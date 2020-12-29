@@ -4136,7 +4136,7 @@ button.close {
 .carousel-item-next,
 .carousel-item-prev {
   display: block;
-  transition: transform 0.6s ease; }
+  transition: transform 2s ease; }
   @media screen and (prefers-reduced-motion: reduce) {
     .carousel-item.active,
     .carousel-item-next,
@@ -4174,7 +4174,7 @@ button.close {
 
 .carousel-fade .carousel-item {
   opacity: 0;
-  transition-duration: .6s;
+  transition-duration: 1s;
   transition-property: opacity; }
 .carousel-fade .carousel-item.active,
 .carousel-fade .carousel-item-next.carousel-item-left,
@@ -6952,7 +6952,7 @@ body {
 .card-hide1 {
   pointer-events: none;
   animation-name: cardAnimation;
-  animation-duration: 2.5s;
+  animation-duration: 2.7s;
   animation-timing-function: cubic-bezier(0.1, 0.3, 0.9, 0.9);
   animation-iteration-count: 1; }
 
