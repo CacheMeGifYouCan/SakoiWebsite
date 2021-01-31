@@ -1,6 +1,13 @@
-# Project 3 - NewsWeek Clone
+![Name](https://img.shields.io/badge/Marcus-Developer-red?style=for-the-badge)
+![Issues](https://img.shields.io/github/issues/cachemegifyoucan/sakoiwebsite?style=for-the-badge)
+![Followers](https://img.shields.io/github/followers/cachemegifyoucan?style=for-the-badge)
+![Stars](https://img.shields.io/github/stars/cachemegifyoucan?style=for-the-badge)
+![Pull Requests](https://img.shields.io/github/issues-pr/cachemegifyoucan/sakoiwebsite?style=for-the-badge)
+![Last Commit](https://img.shields.io/github/last-commit/cachemegifyoucan/sakoiwebsite/main?style=for-the-badge)
 
-> This is the Project 2 in the Microverse course
+
+# Project - Sakoi Website
+
 
 ### View in browser
 [Live](https://greg0109.github.io/NewsWeek/)
@@ -14,11 +21,6 @@
 - CSS
 
 ## Authors
-
-👤 **Greg**
-
-- GitHub: [@Greg0109](https://github.com/greg0109)
-- Twitter: [@Greg_0109](https://twitter.com/greg_0109)
 
 👤 **Marcus**
 
