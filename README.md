@@ -10,10 +10,10 @@
 
 
 ### View in browser
-[Live](https://greg0109.github.io/NewsWeek/)
+[Live](https://cachemegifyoucan.github.io/SakoiWebsite/)
 
 ### Screenshot
-![Screenshot](assets/NewsWeek.png)
+![Screenshot](./screenshot.png)
 
 ## Built With
 
