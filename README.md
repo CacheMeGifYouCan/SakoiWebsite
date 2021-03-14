@@ -26,6 +26,10 @@
 
 - GitHub: [@CatchMeIfYouCan](https://github.com/CacheMeGifYouCan)
 
+## Description
+
+Sakoi is a fictional sushi restaurant located in a luxury hotel. Here I created the companies webpage, where users can order food, see the menu and various details regarding the restaurant. This site was created to practice skills in front end development. 
+
 ## Getting Started
 
 First ensure the assets folder is set in a location which is in the same folder as the other files. The Index and CSS should also be easily accessible. All the content in this project was linked to offline files in the assets folder.
