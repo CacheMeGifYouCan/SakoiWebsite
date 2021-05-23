@@ -24,7 +24,7 @@
 
 👤 **Marcus**
 
-- GitHub: [@CatchMeIfYouCan](https://github.com/marcusal)
+- GitHub: [@marcusal](https://github.com/marcusal)
 
 ## Description
 
