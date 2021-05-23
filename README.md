@@ -10,7 +10,7 @@
 
 
 ### View in browser
-[Live](https://cachemegifyoucan.github.io/SakoiWebsite/)
+[Live](https://marcusal.github.io/SakoiWebsite/)
 
 ### Screenshot
 ![Screenshot](./screenshot.png)
@@ -24,7 +24,7 @@
 
 👤 **Marcus**
 
-- GitHub: [@CatchMeIfYouCan](https://github.com/CacheMeGifYouCan)
+- GitHub: [@CatchMeIfYouCan](https://github.com/marcusal)
 
 ## Description
 
@@ -64,7 +64,7 @@ Use a local broswer to deploy the project for testing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Greg0109/NewsWeek/issues)
+Feel free to check the [issues page](https://github.com/marcusal/sakoiwebsite/issues)
 
 ## 📝 License
 
